@@ -26,8 +26,8 @@ export const Navbar = () => {
         </Link>
 
         {/* Get Started 버튼 */}
-        <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
-          <div className="hidden lg:flex nav__item">
+        <div className="gap-3 mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
+          <div className="hidden lg:flex">
             <Link
               href="/"
               className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
